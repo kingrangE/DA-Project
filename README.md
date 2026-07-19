@@ -55,6 +55,7 @@ Softeer DataArchitect Project
 #### **표준 용어 사전 구축** (7/16)
 > 팀 전체 토론을 통해 표준 용어 사전 구축
 - [토론 중 의견 조율 내역 일부 정리](conflict.md)
+- [표준 용어 사전 링크](https://docs.google.com/spreadsheets/d/1snEixFD_zC0ne-C4jorOZCpKL2yBfZhCpkceofQiKIA/edit?usp=sharing)
 
 1. **각자 제작한 모델링 결과 기반 엔터티 및 속성명 모두 취합**
     ![](assets/standard_dict_1.png)
@@ -79,6 +80,45 @@ Softeer DataArchitect Project
 #### **개별 진행 후 토론** (7/17)
 > 작일 개별 모델링 결과에 대한 토론을 기반으로 각자 다시 진행 후, 토론
 
+![](assets/ERD_1.jpg)
+![](assets/ERD_2.jpg)
+
 ---
 #### **개별 논리적 모델링 진행 결과 통합** (7/17)
+![](assets/ERD_ver1.png)
 
+---
+#### **코드 엔터티 변경**(7/18)
+> 약 11개로 나눠진 코드 엔터티를 코드 유형과 유형별 코드 번호로 통합 정리
+
+![](assets/ERD_ver2.png)
+---
+#### **도메인 정의 표준화 진행** (7/18)
+- [도메인 정의서 엑셀](https://docs.google.com/spreadsheets/d/1-aiC4OLtqCO5uuAHhPRR5oaiPypogyEEA7w50gN1GFU/edit?usp=sharing)
+1. 엔터티 속성명 종합
+    > 엔터티랑 속성명 종합
+
+    ![](/assets/domain_define_1.png)
+
+2. 접미어 분리
+    > 2자/3자/4자로 접미어 분리 진행 (유사 분류를 찾기 위함)
+
+    ![](/assets/domain_define_2.png)
+
+3. 접미어 기반 유사 분류끼리 통합
+    > 접미어들 기반으로 공통 추출 후, 공통 접미어 분류
+
+    ![](/assets/domain_define_3.png)
+
+4. 도메인 정의서 분류 및 도메인 추출
+    ![](assets/domain_define_5.png)
+
+5. 도메인 정의서 완성
+    ![](assets/domain_define_6.png)
+
+---
+#### **물리 모델링 진행** (7/18)
+
+>
+
+![]()
